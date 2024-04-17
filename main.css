@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 100px;
 }
 
 #container {
@@ -20,4 +21,35 @@
     background-color: #FFF;
     border-radius: 70px;
     border: 4px black solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    overflow: hidden;
+}
+
+#display {
+    width: 100%;
+    height: 200px;
+    background-color: #4F4F4F;
+    color: #ffffff;
+}
+
+.buttons {
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 140px 140px 140px 140px;
+    grid-template-columns: 175px 175px 175px 175px;
+}
+
+button {
+    background-color: #ffffff;
+    border: 1px black solid;
+}
+
+.operation-button {
+    background-color: #D9D9D9;
+}
+
+.equal {
+    grid-row: span 3;
+    background: linear-gradient(125deg, #DA9B3F, #F2DF2D);
 }
