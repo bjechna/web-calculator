@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 100px;
+    font-family: "Inter", sans-serif;
 }
 
 #container {
@@ -30,6 +33,9 @@
     height: 200px;
     background-color: #4F4F4F;
     color: #ffffff;
+    display: flex;
+    justify-content: right;
+    padding: 30px 20px;
 }
 
 .buttons {
