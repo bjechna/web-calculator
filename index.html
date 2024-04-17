@@ -11,13 +11,12 @@
     <div id="container">
         <div id="calculator">
             <div id="display">
-
             </div>
             <div class="buttons">
                 <button class="operation-button" onclick="writeOnDisplay(this)">+</button>
                 <button class="operation-button" onclick="writeOnDisplay(this)">-</button>
-                <button class="operation-button" onclick="writeOnDisplay(this)">&times;</button>
-                <button class="operation-button" onclick="writeOnDisplay(this)">&divide;</button>
+                <button class="operation-button" onclick="writeOnDisplay('*')">&times;</button>
+                <button class="operation-button" onclick="writeOnDisplay('/')">&divide;</button>
                 <button onclick="writeOnDisplay(this)">7</button>
                 <button onclick="writeOnDisplay(this)">8</button>
                 <button onclick="writeOnDisplay(this)">9</button>
@@ -30,7 +29,7 @@
                 <button onclick="writeOnDisplay(this)">2</button>
                 <button onclick="writeOnDisplay(this)">3</button>
                 <button onclick="writeOnDisplay(this)">0</button>
-                <button onclick="writeOnDisplay(this)">,</button>
+                <button onclick="writeOnDisplay('.')">,</button>
                 <button class="operation-button" onclick="clearDisplay()">C</button>
             </div>
         </div>
